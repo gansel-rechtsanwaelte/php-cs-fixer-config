@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 namespace Gansel\PhpCsFixer\Config\Test\Unit;
 
+use Ergebnis\Test\Util;
 use Gansel\PhpCsFixer\Config;
 use Gansel\PhpCsFixer\Config\Test\Fixture;
-use Ergebnis\Test\Util;
 use PHPUnit\Framework;
 
 /**
@@ -27,7 +27,10 @@ final class FactoryTest extends Framework\TestCase
 {
     use Util\Helper;
 
-    public function testFromRuleSetThrowsRuntimeExceptionIfCurrentPhpVersionIsLessThanTargetPhpVersion(): void
+    /**
+     * @test
+     */
+    public function fromRuleSetThrowsRuntimeExceptionIfCurrentPhpVersionIsLessThanTargetPhpVersion(): void
     {
         $targetPhpVersion = \PHP_VERSION_ID + 1;
 
@@ -49,8 +52,10 @@ final class FactoryTest extends Framework\TestCase
 
     /**
      * @dataProvider provideTargetPhpVersion
+     *
+     * @test
      */
-    public function testFromRuleSetCreatesConfig(int $targetPhpVersion): void
+    public function fromRuleSetCreatesConfig(int $targetPhpVersion): void
     {
         $rules = [
             'foo' => true,
@@ -89,7 +94,10 @@ final class FactoryTest extends Framework\TestCase
         }
     }
 
-    public function testFromRuleSetCreatesConfigWithOverrideRules(): void
+    /**
+     * @test
+     */
+    public function fromRuleSetCreatesConfigWithOverrideRules(): void
     {
         $rules = [
             'foo' => true,

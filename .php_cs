@@ -15,7 +15,7 @@ use Ergebnis\License;
 use Gansel\PhpCsFixer;
 
 $license = License\Type\MIT::markdown(
-    __DIR__ . '/LICENSE.md',
+    __DIR__.'/LICENSE.md',
     License\Range::since(
         License\Year::fromString('2020'),
         new \DateTimeZone('UTC')
@@ -26,7 +26,7 @@ $license = License\Type\MIT::markdown(
 
 $license->save();
 
-$config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Custom($license->header()));
+$config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php74($license->header()));
 
 $config->getFinder()
     ->exclude([
@@ -38,6 +38,6 @@ $config->getFinder()
     ->in(__DIR__)
     ->name('.php_cs');
 
-$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php_cs.cache');
+$config->setCacheFile(__DIR__.'/.build/php-cs-fixer/.php_cs.cache');
 
 return $config;

@@ -26,7 +26,7 @@ $ composer require --dev gansel/php-cs-fixer-config
 
 Pick one of the rule sets:
 
-* [`Ergebnis\PhpCsFixer\RuleSet\Custom`](src/RuleSet/Custom.php)
+* [`Ergebnis\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
 
 Create a configuration file `.php_cs` in the root of your project:
 
@@ -35,7 +35,7 @@ Create a configuration file `.php_cs` in the root of your project:
 
 use Gansel\PhpCsFixer\Config;
 
-$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom());
+$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74());
 
 $config->getFinder()->in(__DIR__);
 $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php_cs.cache');
@@ -72,8 +72,8 @@ All configuration examples use the caching feature, and if you want to use it as
 +@see https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config
 +EOF;
 
--$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom());
-+$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom($header));
+-$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74());
++$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74($header));
 
  $config->getFinder()->in(__DIR__);
  $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php_cs.cache');
@@ -106,8 +106,8 @@ file headers will be added to PHP files, for example:
 
  use Gansel\PhpCsFixer\Config;
 
--$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom());
-+$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom(), [
+-$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74());
++$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74(), [
 +    'mb_str_functions' => false,
 +    'strict_comparison' => false,
 +]);
