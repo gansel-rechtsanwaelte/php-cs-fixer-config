@@ -69,7 +69,7 @@ All configuration examples use the caching feature, and if you want to use it as
 +For the full copyright and license information, please view
 +the LICENSE file that was distributed with this source code.
 +
-+@see https://github.com/gansel/php-cs-fixer-config
++@see https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config
 +EOF;
 
 -$config = Config\Factory::fromRuleSet(new Config\RuleSet\Custom());
@@ -93,7 +93,7 @@ file headers will be added to PHP files, for example:
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/gansel/php-cs-fixer-config
+ * @see https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config
  */
 ```
 
