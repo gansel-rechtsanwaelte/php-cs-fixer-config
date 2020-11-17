@@ -24,22 +24,14 @@ use PHPUnit\Framework;
  */
 abstract class AbstractRuleSetTestCase extends Framework\TestCase
 {
-    /**
-     * @var string
-     */
-    protected $name;
+    protected string $name;
+    protected array $rules;
+    protected int $targetPhpVersion;
 
     /**
-     * @var array
+     * @test
      */
-    protected $rules;
-
-    /**
-     * @var int
-     */
-    protected $targetPhpVersion;
-
-    final public function testDefaults(): void
+    final public function defaults(): void
     {
         $ruleSet = self::createRuleSet();
 
@@ -48,7 +40,10 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
         self::assertEquals($this->targetPhpVersion, $ruleSet->targetPhpVersion());
     }
 
-    final public function testAllConfiguredFixersAreBuiltIn(): void
+    /**
+     * @test
+     */
+    final public function allConfiguredFixersAreBuiltIn(): void
     {
         $namesOfFixersNotBuiltIn = \array_diff(
             self::configuredFixerNames(),
@@ -59,26 +54,14 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
 
         self::assertEmpty($namesOfFixersNotBuiltIn, \sprintf(
             "Failed asserting that fixers with the names\n\n%s\n\nare built in.",
-            ' - ' . \implode("\n - ", $namesOfFixersNotBuiltIn)
+            ' - '.\implode("\n - ", $namesOfFixersNotBuiltIn)
         ));
     }
 
-    final public function testAllBuiltInFixersAreConfigured(): void
-    {
-        $namesOfFixersWithoutConfiguration = \array_diff(
-            self::builtInFixerNames(),
-            self::configuredFixerNames()
-        );
-
-        \sort($namesOfFixersWithoutConfiguration);
-
-        self::assertEmpty($namesOfFixersWithoutConfiguration, \sprintf(
-            "Failed asserting that built-in fixers with the names\n\n%s\n\nare configured.",
-            ' - ' . \implode("\n - ", $namesOfFixersWithoutConfiguration)
-        ));
-    }
-
-    final public function testHeaderCommentFixerIsDisabledByDefault(): void
+    /**
+     * @test
+     */
+    final public function headerCommentFixerIsDisabledByDefault(): void
     {
         $rules = self::createRuleSet()->rules();
 
@@ -88,8 +71,10 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
 
     /**
      * @dataProvider provideValidHeader
+     *
+     * @test
      */
-    final public function testHeaderCommentFixerIsEnabledIfHeaderIsProvided(string $header): void
+    final public function headerCommentFixerIsEnabledIfHeaderIsProvided(string $header): void
     {
         $rules = self::createRuleSet($header)->rules();
 
@@ -125,7 +110,10 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
         }
     }
 
-    final public function testRulesAreSortedByNameInRuleSet(): void
+    /**
+     * @test
+     */
+    final public function rulesAreSortedByNameInRuleSet(): void
     {
         $ruleNames = \array_keys(self::createRuleSet()->rules());
 
@@ -139,7 +127,10 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
         ));
     }
 
-    final public function testRulesAreSortedByNameInRuleSetTest(): void
+    /**
+     * @test
+     */
+    final public function rulesAreSortedByNameInRuleSetTest(): void
     {
         $ruleNames = \array_keys($this->rules);
 
@@ -153,22 +144,10 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
         ));
     }
 
-    final public function testRulesDoNotContainRuleSets(): void
-    {
-        $ruleNames = \array_keys(self::createRuleSet()->rules());
-
-        $namesOfConfiguredRuleSets = \array_filter($ruleNames, static function (string $ruleName): bool {
-            return '@' === \mb_substr($ruleName, 0, 1);
-        });
-
-        self::assertEmpty($namesOfConfiguredRuleSets, \sprintf(
-            "Failed asserting that rule sets \n\n%s\n\nare not configured in rule set \"%s\".",
-            ' - ' . \implode("\n - ", $namesOfConfiguredRuleSets),
-            static::className()
-        ));
-    }
-
-    final public function testRulesDoNotEnableDeprecatedFixers(): void
+    /**
+     * @test
+     */
+    final public function rulesDoNotEnableDeprecatedFixers(): void
     {
         $fixers = self::builtInFixers();
 
@@ -194,7 +173,7 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
 
         self::assertEmpty($namesOfEnabledDeprecatedFixers, \sprintf(
             "Failed asserting that deprecated fixers with names\n\n%s\n\nare not enabled in rule set \"%s\".",
-            ' - ' . \implode("\n - ", $namesOfEnabledDeprecatedFixers),
+            ' - '.\implode("\n - ", $namesOfEnabledDeprecatedFixers),
             static::className()
         ));
     }

@@ -25,10 +25,13 @@ final class SrcCodeTest extends Framework\TestCase
 {
     use Helper;
 
-    public function testSrcClassesHaveUnitTests(): void
+    /**
+     * @test
+     */
+    public function srcClassesHaveUnitTests(): void
     {
         self::assertClassesHaveTests(
-            __DIR__ . '/../../src',
+            __DIR__.'/../../src',
             'Gansel\\PhpCsFixer\\Config\\',
             'Gansel\\PhpCsFixer\\Config\\Test\\Unit\\'
         );
