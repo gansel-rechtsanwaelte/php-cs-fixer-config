@@ -340,7 +340,9 @@ jobs:
         (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'composer(deps-dev)')) ||
         (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'github-actions(deps)')) ||
         (github.actor == 'gansel-bot' && github.event.pull_request.title == 'Enhancement: Update license year') ||
-        (github.actor == 'localheinz' && contains(github.event.pull_request.labels.*.name, 'merge'))
+        (github.actor == 'igst' && contains(github.event.pull_request.labels.*.name, 'merge')) ||
+        (github.actor == 'localheinz' && contains(github.event.pull_request.labels.*.name, 'merge')) ||
+        (github.actor == 'OskarStark' && contains(github.event.pull_request.labels.*.name, 'merge'))
       )
 
     steps:
