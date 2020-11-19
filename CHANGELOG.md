@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.0.0...main`][1.0.0...main].
+For a full diff see [`1.1.0...main`][1.1.0...main].
+
+## [`1.1.0`][1.1.0]
+
+For a full diff see [`1.0.0...1.1.0`][1.0.0...1.1.0].
+
+### Added
+
+* Added rule set for PHP 7.2 ([#12]), by [@localheinz]
 
 ### Changed
 
@@ -23,9 +31,11 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.0.1
 
 [b9012df...1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/b9012df...1.0.0
-[1.0.0...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.0.0...main
+[1.0.0...1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.0.0...1.1.0
+[1.1.0...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.1.0...main
 
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/10
+[#12]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/12
 
 [@localheinz]: https://github.com/localheinz
