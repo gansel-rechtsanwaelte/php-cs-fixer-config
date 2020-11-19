@@ -28,14 +28,15 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 
 * Added configuration from a private repository ([#9]), by [@localheinz]
 
-[1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.0.1
+[1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.0.0
+[1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.1.0
 
 [b9012df...1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/b9012df...1.0.0
 [1.0.0...1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.0.0...1.1.0
 [1.1.0...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.1.0...main
 
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
-[#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/10
+[#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
 [#12]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/12
 
 [@localheinz]: https://github.com/localheinz
