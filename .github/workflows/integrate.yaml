@@ -10,6 +10,8 @@ on: # yamllint disable-line rule:truthy
 
 env:
   GANSEL_BOT_NAME: "gansel-bot"
+  MIN_COVERED_MSI: 100
+  MIN_MSI: 100
   PHP_EXTENSIONS: "mbstring"
 
 jobs:
@@ -180,6 +182,8 @@ jobs:
     strategy:
       matrix:
         php-version:
+          - "7.2"
+          - "7.3"
           - "7.4"
 
         dependencies:
@@ -315,7 +319,7 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Run mutation tests with pcov and infection/infection"
-        run: "vendor/bin/infection --configuration=infection.json"
+        run: "vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=${{ env.MIN_COVERED_MSI }} --min-msi=${{ env.MIN_MSI }}"
 
   merge:
     name: "Merge"

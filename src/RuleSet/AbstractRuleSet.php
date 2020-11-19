@@ -20,14 +20,20 @@ use Gansel\PhpCsFixer\Config\RuleSet;
  */
 abstract class AbstractRuleSet implements RuleSet
 {
-    protected string $name = '';
+    /**
+     * @var string
+     */
+    protected $name = '';
 
     /**
      * @var array<string, array|bool>
      */
-    protected array $rules = [];
+    protected $rules = [];
 
-    protected int $targetPhpVersion = 0;
+    /**
+     * @var int
+     */
+    protected $targetPhpVersion = 0;
 
     final public function __construct(?string $header = null)
     {
