@@ -29,7 +29,9 @@ final class Php74Test extends AbstractRuleSetTestCase
         '@DoctrineAnnotation' => true,
         '@Symfony' => true,
         'array_indentation' => true,
-        'array_syntax' => ['syntax' => 'short'],
+        'array_syntax' => [
+            'syntax' => 'short',
+        ],
         'blank_line_before_statement' => [
             'statements' => [
                 'break',
@@ -70,7 +72,9 @@ final class Php74Test extends AbstractRuleSetTestCase
         ],
         'multiline_whitespace_before_semicolons' => true,
         'native_function_invocation' => [
-            'include' => ['@compiler_optimized'],
+            'include' => [
+                '@compiler_optimized',
+            ],
             'scope' => 'namespaced',
         ],
         'no_null_property_initialization' => true,
