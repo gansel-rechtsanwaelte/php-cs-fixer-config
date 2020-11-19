@@ -17,14 +17,20 @@ use Gansel\PhpCsFixer\Config;
 
 final class DummyRuleSet implements Config\RuleSet
 {
-    private string $name;
+    /**
+     * @var string
+     */
+    private $name;
 
     /**
      * @var array<string, array|bool>
      */
-    private array $rules;
+    private $rules;
 
-    private int $phpVersion;
+    /**
+     * @var int
+     */
+    private $phpVersion;
 
     /**
      * @param array<string, array|bool> $rules

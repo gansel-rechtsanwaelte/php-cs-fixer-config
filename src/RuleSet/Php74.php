@@ -17,9 +17,9 @@ use PhpCsFixer\Fixer;
 
 final class Php74 extends AbstractRuleSet
 {
-    protected string $name = 'gansel (PHP 7.4)';
+    protected $name = 'gansel (PHP 7.4)';
 
-    protected array $rules = [
+    protected $rules = [
         '@DoctrineAnnotation' => true,
         '@Symfony' => true,
         'array_indentation' => true,
@@ -116,5 +116,5 @@ final class Php74 extends AbstractRuleSet
         'void_return' => true,
     ];
 
-    protected int $targetPhpVersion = 70400;
+    protected $targetPhpVersion = 70400;
 }
