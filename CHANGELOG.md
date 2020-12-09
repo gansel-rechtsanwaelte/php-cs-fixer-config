@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`1.1.0...main`][1.1.0...main].
 
+### Changed
+
+* Updated `friendsofphp/php-cs-fixer` ([#21]), by [@localheinz]
+
 ## [`1.1.0`][1.1.0]
 
 For a full diff see [`1.0.0...1.1.0`][1.0.0...1.1.0].
@@ -38,5 +42,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
 [#12]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/12
+[#21]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/21
 
 [@localheinz]: https://github.com/localheinz

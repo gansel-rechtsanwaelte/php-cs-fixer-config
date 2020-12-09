@@ -84,7 +84,7 @@ final class Php72 extends AbstractRuleSet
                 Fixer\Import\OrderedImportsFixer::IMPORT_TYPE_CONST,
                 Fixer\Import\OrderedImportsFixer::IMPORT_TYPE_FUNCTION,
             ],
-         ],
+        ],
         'php_unit_construct' => true,
         'php_unit_dedicate_assert' => [
             'target' => 'newest',
@@ -99,8 +99,7 @@ final class Php72 extends AbstractRuleSet
         ],
         'phpdoc_no_empty_return' => true,
         'protected_to_private' => true,
-        'psr0' => true,
-        'psr4' => true,
+        'psr_autoloading' => true,
         'return_assignment' => false,
         'single_line_throw' => false,
         'strict_comparison' => true,
