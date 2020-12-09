@@ -84,7 +84,7 @@ final class Php74 extends AbstractRuleSet
                 Fixer\Import\OrderedImportsFixer::IMPORT_TYPE_CONST,
                 Fixer\Import\OrderedImportsFixer::IMPORT_TYPE_FUNCTION,
             ],
-         ],
+        ],
         'php_unit_construct' => true,
         'php_unit_dedicate_assert' => [
             'target' => 'newest',
