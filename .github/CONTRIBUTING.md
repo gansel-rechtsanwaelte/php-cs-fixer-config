@@ -66,7 +66,7 @@ Run
 $ make static-code-analysis-baseline
 ```
 
-to regenerate the baselines in [`../phpstan-baseline.neon`](../phpstan-baseline.neon).
+to regenerate the baseline in [`../phpstan-baseline.neon`](../phpstan-baseline.neon).
 
 :exclamation: Ideally, the baseline should shrink over time.
 
