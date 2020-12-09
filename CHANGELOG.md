@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`1.2.0...main`][1.2.0...main].
 
+### Changed
+
+* Allowed installation with PHP 8.0 ([#24]), by [@localheinz]
+
 ## [`1.2.0`][1.2.0]
 
 For a full diff see [`1.1.0...1.2.0`][1.1.0...1.2.0].
@@ -49,5 +53,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
 [#12]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/12
 [#21]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/21
+[#24]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/24
 
 [@localheinz]: https://github.com/localheinz
