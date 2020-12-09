@@ -26,8 +26,8 @@ $ composer require --dev gansel/php-cs-fixer-config
 
 Pick one of the rule sets:
 
-* [`Ergebnis\PhpCsFixer\RuleSet\Php72`](src/RuleSet/Php72.php)
-* [`Ergebnis\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
+* [`Gansel\PhpCsFixer\RuleSet\Php72`](src/RuleSet/Php72.php)
+* [`Gansel\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
 
 Create a configuration file `.php_cs` in the root of your project:
 
