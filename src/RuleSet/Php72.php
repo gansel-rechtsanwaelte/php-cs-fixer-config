@@ -97,7 +97,7 @@ final class Php72 extends AbstractRuleSet
         'explicit_indirect_variable' => true,
         'explicit_string_variable' => true,
         'final_class' => false,
-        'final_internal_class' => false,
+        'final_internal_class' => true,
         'final_public_method_for_abstract_class' => false,
         'fopen_flag_order' => false,
         'fopen_flags' => false,
