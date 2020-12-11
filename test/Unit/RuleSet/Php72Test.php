@@ -343,7 +343,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'psr_autoloading' => true,
         'random_api_migration' => true,
         'regular_callable_call' => true,
-        'return_assignment' => false,
+        'return_assignment' => true,
         'return_type_declaration' => true,
         'self_accessor' => false,
         'self_static_accessor' => false,
