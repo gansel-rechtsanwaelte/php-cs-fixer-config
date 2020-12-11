@@ -21,7 +21,6 @@ final class Php74 extends AbstractRuleSet
 
     protected $rules = [
         '@DoctrineAnnotation' => true,
-        '@PSR1' => true,
         'array_indentation' => true,
         'array_syntax' => [
             'syntax' => 'short',
@@ -77,7 +76,9 @@ final class Php74 extends AbstractRuleSet
         'declare_strict_types' => true,
         'echo_tag_syntax' => true,
         'elseif' => true,
+        'encoding' => true,
         'explicit_string_variable' => true,
+        'full_opening_tag' => true,
         'fully_qualified_strict_types' => true,
         'function_declaration' => true,
         'function_typehint_space' => true,
