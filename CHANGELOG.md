@@ -47,6 +47,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `php_unit_set_up_tear_down_visibility` fixer ([#62]), by [@localheinz]
 * Enabled and configured `phpdoc_line_span` fixer ([#63]), by [@localheinz]
 * Enabled `phpdoc_order` fixer ([#64]), by [@localheinz]
+* Enabled `phpdoc_tag_casing` fixer ([#65]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -126,5 +127,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#62]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/62
 [#63]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/63
 [#64]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/64
+[#65]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/65
 
 [@localheinz]: https://github.com/localheinz
