@@ -1,4 +1,4 @@
-# php-cs-fixer-config-template
+# php-cs-fixer-config
 
 [![Integrate](https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/workflows/Integrate/badge.svg?branch=main)](https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/actions)
 [![Prune](https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/workflows/Prune/badge.svg?branch=main)](https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/actions)
