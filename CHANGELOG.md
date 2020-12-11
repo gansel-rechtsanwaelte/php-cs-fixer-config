@@ -52,6 +52,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `phpdoc_var_annotation_correct_order` fixer ([#67]), by [@localheinz]
 * Enabled `pow_to_exponentiation` fixer ([#68]), by [@localheinz]
 * Enabled `random_api_migration` fixer ([#69]), by [@localheinz]
+* Enabled `regular_callable_call` fixer ([#70]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -136,5 +137,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#67]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/67
 [#68]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/68
 [#69]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/69
+[#70]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/70
 
 [@localheinz]: https://github.com/localheinz
