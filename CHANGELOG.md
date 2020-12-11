@@ -27,6 +27,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `method_chaining_indentation` fixer ([#41]), by [@localheinz]
 * Enabled `modernize_types_casting` fixer ([#42]), by [@localheinz]
 * Enabled `multiline_comment_opening_closing` fixer ([#43]), by [@localheinz]
+* Enabled `native_constant_invocation` fixer ([#44]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -86,5 +87,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#41]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/41
 [#42]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/42
 [#43]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/43
+[#44]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/44
 
 [@localheinz]: https://github.com/localheinz
