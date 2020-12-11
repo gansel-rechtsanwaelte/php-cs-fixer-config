@@ -100,7 +100,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'ereg_to_preg' => true,
         'error_suppression' => false,
         'escape_implicit_backslashes' => true,
-        'explicit_indirect_variable' => false,
+        'explicit_indirect_variable' => true,
         'explicit_string_variable' => true,
         'final_class' => false,
         'final_internal_class' => false,
