@@ -11,6 +11,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 ### Changed
 
 * Allowed installation with PHP 8.0 ([#24]), by [@localheinz]
+* Enabled `align_multiline_comment` fixer  ([#26]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -54,5 +55,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#12]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/12
 [#21]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/21
 [#24]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/24
+[#26]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/26
 
 [@localheinz]: https://github.com/localheinz

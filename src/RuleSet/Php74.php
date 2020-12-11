@@ -20,7 +20,7 @@ final class Php74 extends AbstractRuleSet
     protected $name = 'gansel (PHP 7.4)';
 
     protected $rules = [
-        'align_multiline_comment' => false,
+        'align_multiline_comment' => true,
         'array_indentation' => true,
         'array_push' => false,
         'array_syntax' => [
