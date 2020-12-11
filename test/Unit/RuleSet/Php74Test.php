@@ -251,7 +251,7 @@ final class Php74Test extends AbstractRuleSetTestCase
                 Fixer\Import\OrderedImportsFixer::IMPORT_TYPE_FUNCTION,
             ],
         ],
-        'ordered_interfaces' => false,
+        'ordered_interfaces' => true,
         'ordered_traits' => true,
         'php_unit_construct' => true,
         'php_unit_dedicate_assert' => [
