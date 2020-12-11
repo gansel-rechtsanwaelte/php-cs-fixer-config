@@ -29,6 +29,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `multiline_comment_opening_closing` fixer ([#43]), by [@localheinz]
 * Enabled `native_constant_invocation` fixer ([#44]), by [@localheinz]
 * Enabled `no_alias_functions` fixer ([#45]), by [@localheinz]
+* Enabled `no_homoglyph_names` fixer ([#46]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -90,5 +91,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#43]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/43
 [#44]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/44
 [#45]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/45
+[#46]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/46
 
 [@localheinz]: https://github.com/localheinz
