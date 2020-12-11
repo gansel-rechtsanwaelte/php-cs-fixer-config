@@ -148,7 +148,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'method_argument_space' => [
             'on_multiline' => 'ensure_fully_multiline',
         ],
-        'method_chaining_indentation' => false,
+        'method_chaining_indentation' => true,
         'modernize_types_casting' => false,
         'multiline_comment_opening_closing' => false,
         'multiline_whitespace_before_semicolons' => true,

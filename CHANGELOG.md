@@ -24,6 +24,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `heredoc_to_nowdoc` fixer ([#38]), by [@localheinz]
 * Enabled `implode_call` fixer ([#39]), by [@localheinz]
 * Enabled `is_null` fixer ([#40]), by [@localheinz]
+* Enabled `method_chaining_indentation` fixer ([#41]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -80,5 +81,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#38]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/38
 [#39]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/39
 [#40]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/40
+[#41]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/41
 
 [@localheinz]: https://github.com/localheinz
