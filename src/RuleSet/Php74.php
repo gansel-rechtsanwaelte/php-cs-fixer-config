@@ -156,7 +156,7 @@ final class Php74 extends AbstractRuleSet
         ],
         'native_function_type_declaration_casing' => true,
         'new_with_braces' => true,
-        'no_alias_functions' => false,
+        'no_alias_functions' => true,
         'no_alias_language_construct_call' => true,
         'no_alternative_syntax' => true,
         'no_binary_string' => true,
