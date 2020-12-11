@@ -120,7 +120,7 @@ final class Php74 extends AbstractRuleSet
         'group_import' => false,
         'header_comment' => false,
         'heredoc_indentation' => false,
-        'heredoc_to_nowdoc' => false,
+        'heredoc_to_nowdoc' => true,
         'implode_call' => false,
         'include' => true,
         'increment_style' => true,
