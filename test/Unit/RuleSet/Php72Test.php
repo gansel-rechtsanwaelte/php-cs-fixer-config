@@ -85,7 +85,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'date_time_immutable' => false,
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
-        'dir_constant' => false,
+        'dir_constant' => true,
         'doctrine_annotation_array_assignment' => [
             'operator' => ':',
         ],
