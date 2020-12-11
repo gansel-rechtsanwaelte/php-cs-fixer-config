@@ -258,7 +258,7 @@ final class Php72Test extends AbstractRuleSetTestCase
             'target' => 'newest',
         ],
         'php_unit_dedicate_assert_internal_type' => true,
-        'php_unit_expectation' => false,
+        'php_unit_expectation' => true,
         'php_unit_fqcn_annotation' => true,
         'php_unit_internal_class' => false,
         'php_unit_method_casing' => true,
