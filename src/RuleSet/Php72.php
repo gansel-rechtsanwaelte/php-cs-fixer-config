@@ -20,7 +20,6 @@ final class Php72 extends AbstractRuleSet
     protected $name = 'gansel (PHP 7.2)';
 
     protected $rules = [
-        '@DoctrineAnnotation' => true,
         'array_indentation' => true,
         'array_syntax' => [
             'syntax' => 'short',
@@ -74,6 +73,14 @@ final class Php72 extends AbstractRuleSet
         'constant_case' => true,
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
+        'doctrine_annotation_array_assignment' => [
+            'operator' => ':',
+        ],
+        'doctrine_annotation_braces' => true,
+        'doctrine_annotation_indentation' => true,
+        'doctrine_annotation_spaces' => [
+            'before_array_assignments_colon' => false,
+        ],
         'echo_tag_syntax' => true,
         'elseif' => true,
         'encoding' => true,
