@@ -150,7 +150,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         ],
         'method_chaining_indentation' => true,
         'modernize_types_casting' => true,
-        'multiline_comment_opening_closing' => false,
+        'multiline_comment_opening_closing' => true,
         'multiline_whitespace_before_semicolons' => true,
         'native_constant_invocation' => false,
         'native_function_casing' => true,
