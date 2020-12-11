@@ -33,6 +33,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `no_trailing_whitespace_in_string` fixer ([#47]), by [@localheinz]
 * Enabled `no_unneeded_final_method` fixer ([#48]), by [@localheinz]
 * Enabled `no_unreachable_default_argument_value` fixer ([#49]), by [@localheinz]
+* Enabled `no_useless_return` fixer ([#50]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -98,5 +99,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#47]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/47
 [#48]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/48
 [#49]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/49
+[#50]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/50
 
 [@localheinz]: https://github.com/localheinz
