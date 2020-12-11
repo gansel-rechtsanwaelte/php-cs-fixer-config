@@ -257,7 +257,7 @@ final class Php72 extends AbstractRuleSet
         'php_unit_internal_class' => true,
         'php_unit_method_casing' => true,
         'php_unit_mock' => true,
-        'php_unit_mock_short_will_return' => false,
+        'php_unit_mock_short_will_return' => true,
         'php_unit_namespaced' => false,
         'php_unit_no_expectation_annotation' => false,
         'php_unit_set_up_tear_down_visibility' => false,
