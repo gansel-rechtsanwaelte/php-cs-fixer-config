@@ -59,6 +59,7 @@ For a full diff see [`1.2.1...main`][1.2.1...main].
 * Enabled `simple_to_complex_string_variable` fixer ([#76]), by [@localheinz]
 * Enabled `string_line_ending` fixer ([#77]), by [@localheinz]
 * Enabled `ternary_to_elvis_operator` fixer ([#78]), by [@localheinz]
+* Added rule set for PHP 7.3 ([#80]), by [@localheinz]
 
 ## [`1.2.1`][1.2.1]
 
@@ -161,5 +162,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#76]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/76
 [#77]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/77
 [#78]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/78
+[#80]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/80
 
 [@localheinz]: https://github.com/localheinz
