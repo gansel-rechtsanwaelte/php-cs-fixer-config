@@ -301,7 +301,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'phpdoc_no_empty_return' => true,
         'phpdoc_no_package' => true,
         'phpdoc_no_useless_inheritdoc' => true,
-        'phpdoc_order' => false,
+        'phpdoc_order' => true,
         'phpdoc_order_by_value' => false,
         'phpdoc_return_self_reference' => true,
         'phpdoc_scalar' => true,
