@@ -237,7 +237,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'normalize_index_brace' => true,
         'not_operator_with_space' => false,
         'not_operator_with_successor_space' => false,
-        'nullable_type_declaration_for_default_null_value' => false,
+        'nullable_type_declaration_for_default_null_value' => true,
         'object_operator_without_whitespace' => true,
         'operator_linebreak' => false,
         'ordered_class_elements' => true,
