@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.2.1...main`][1.2.1...main].
+For a full diff see [`1.3.0...main`][1.3.0...main].
+
+## [`1.3.01`][1.3.0]
+
+For a full diff see [`1.2.1...1.3.0`][1.2.1...1.3.0].
+
+### Added
+
+* Added rule set for PHP 7.3 ([#80]), by [@localheinz]
 
 ### Changed
 
@@ -59,7 +67,6 @@ For a full diff see [`1.2.1...main`][1.2.1...main].
 * Enabled `simple_to_complex_string_variable` fixer ([#76]), by [@localheinz]
 * Enabled `string_line_ending` fixer ([#77]), by [@localheinz]
 * Enabled `ternary_to_elvis_operator` fixer ([#78]), by [@localheinz]
-* Added rule set for PHP 7.3 ([#80]), by [@localheinz]
 * Configured `no_whitespace_before_comma_in_array` differently for `Php72`, `Php73`, and `Php74` rule sets ([#81]), by [@localheinz]
 * Configured `trailing_comma_in_multiline_array` differently for `Php72`, `Php73`, and `Php74` rule sets ([#81]), by [@localheinz]
 
@@ -103,12 +110,14 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.1.0
 [1.2.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.2.0
 [1.2.1]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.2.0
+[1.3.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.3.0
 
 [b9012df...1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/b9012df...1.0.0
 [1.0.0...1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.0.0...1.1.0
 [1.1.0...1.2.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.1.0...1.2.0
 [1.2.0...1.2.1]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.0...1.2.1
-[1.2.1...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.1...main
+[1.2.1...1.3.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.1...1.3.0
+[1.3.0...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.3.0...main
 
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
