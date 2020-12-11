@@ -342,7 +342,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'protected_to_private' => true,
         'psr_autoloading' => true,
         'random_api_migration' => true,
-        'regular_callable_call' => false,
+        'regular_callable_call' => true,
         'return_assignment' => false,
         'return_type_declaration' => true,
         'self_accessor' => false,
