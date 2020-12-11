@@ -104,7 +104,7 @@ final class Php72 extends AbstractRuleSet
         'full_opening_tag' => true,
         'fully_qualified_strict_types' => true,
         'function_declaration' => true,
-        'function_to_constant' => false,
+        'function_to_constant' => true,
         'function_typehint_space' => true,
         'general_phpdoc_annotation_remove' => false,
         'general_phpdoc_tag_rename' => [
