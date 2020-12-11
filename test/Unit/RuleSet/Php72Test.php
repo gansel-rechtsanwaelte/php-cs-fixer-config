@@ -19,7 +19,7 @@ use PhpCsFixer\Fixer;
  * @internal
  *
  * @covers \Gansel\PhpCsFixer\Config\RuleSet\AbstractRuleSet
- * @covers \Gansel\PhpCsFixer\Config\RuleSet\Php74
+ * @covers \Gansel\PhpCsFixer\Config\RuleSet\Php72
  */
 final class Php72Test extends AbstractRuleSetTestCase
 {
