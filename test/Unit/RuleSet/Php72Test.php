@@ -375,7 +375,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'static_lambda' => false,
         'strict_comparison' => true,
         'strict_param' => true,
-        'string_line_ending' => false,
+        'string_line_ending' => true,
         'switch_case_semicolon_to_colon' => true,
         'switch_case_space' => true,
         'switch_continue_to_break' => true,
