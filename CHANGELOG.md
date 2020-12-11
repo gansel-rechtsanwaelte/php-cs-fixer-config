@@ -16,6 +16,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `combine_nested_dirname` fixer  ([#28]), by [@localheinz]
 * Enabled `dir_constant` fixer  ([#29]), by [@localheinz]
 * Enabled `ereg_to_preg` fixer  ([#30]), by [@localheinz]
+* Enabled `escape_implicit_backslashes` fixer  ([#31]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -64,5 +65,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#28]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/28
 [#29]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/29
 [#30]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/30
+[#31]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/31
 
 [@localheinz]: https://github.com/localheinz
