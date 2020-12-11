@@ -344,7 +344,7 @@ final class Php74 extends AbstractRuleSet
         'semicolon_after_instruction' => true,
         'set_type_to_cast' => true,
         'short_scalar_cast' => true,
-        'simple_to_complex_string_variable' => false,
+        'simple_to_complex_string_variable' => true,
         'simplified_if_return' => false,
         'simplified_null_return' => false,
         'single_blank_line_at_eof' => true,
