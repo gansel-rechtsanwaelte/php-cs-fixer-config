@@ -127,7 +127,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'header_comment' => false,
         'heredoc_indentation' => false,
         'heredoc_to_nowdoc' => true,
-        'implode_call' => false,
+        'implode_call' => true,
         'include' => true,
         'increment_style' => true,
         'indentation_type' => true,
