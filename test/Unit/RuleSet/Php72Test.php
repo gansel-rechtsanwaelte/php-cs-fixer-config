@@ -291,7 +291,11 @@ final class Php72Test extends AbstractRuleSetTestCase
         'phpdoc_annotation_without_dot' => true,
         'phpdoc_indent' => true,
         'phpdoc_inline_tag_normalizer' => true,
-        'phpdoc_line_span' => false,
+        'phpdoc_line_span' => [
+            'const' => 'multi',
+            'method' => 'multi',
+            'property' => 'multi',
+        ],
         'phpdoc_no_access' => true,
         'phpdoc_no_alias_tag' => true,
         'phpdoc_no_empty_return' => true,
