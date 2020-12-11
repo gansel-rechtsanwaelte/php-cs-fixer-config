@@ -341,7 +341,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'pow_to_exponentiation' => true,
         'protected_to_private' => true,
         'psr_autoloading' => true,
-        'random_api_migration' => false,
+        'random_api_migration' => true,
         'regular_callable_call' => false,
         'return_assignment' => false,
         'return_type_declaration' => true,

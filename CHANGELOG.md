@@ -51,6 +51,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled and configured `phpdoc_order_by_value` fixer ([#66]), by [@localheinz]
 * Enabled `phpdoc_var_annotation_correct_order` fixer ([#67]), by [@localheinz]
 * Enabled `pow_to_exponentiation` fixer ([#68]), by [@localheinz]
+* Enabled `random_api_migration` fixer ([#69]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -134,5 +135,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#66]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/66
 [#67]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/67
 [#68]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/68
+[#69]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/69
 
 [@localheinz]: https://github.com/localheinz
