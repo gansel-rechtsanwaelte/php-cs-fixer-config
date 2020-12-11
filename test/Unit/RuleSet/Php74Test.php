@@ -77,7 +77,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'clean_namespace' => true,
         'combine_consecutive_issets' => true,
         'combine_consecutive_unsets' => true,
-        'combine_nested_dirname' => false,
+        'combine_nested_dirname' => true,
         'comment_to_phpdoc' => false,
         'compact_nullable_typehint' => true,
         'concat_space' => true,
