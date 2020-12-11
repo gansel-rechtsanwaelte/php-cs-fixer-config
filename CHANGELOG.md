@@ -49,6 +49,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `phpdoc_order` fixer ([#64]), by [@localheinz]
 * Enabled `phpdoc_tag_casing` fixer ([#65]), by [@localheinz]
 * Enabled and configured `phpdoc_order_by_value` fixer ([#66]), by [@localheinz]
+* Enabled `phpdoc_var_annotation_correct_order` fixer ([#67]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -130,5 +131,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#64]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/64
 [#65]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/65
 [#66]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/66
+[#67]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/67
 
 [@localheinz]: https://github.com/localheinz
