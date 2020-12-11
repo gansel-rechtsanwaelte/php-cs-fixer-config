@@ -53,6 +53,7 @@ For a full diff see [`1.2.1...main`][1.2.1...main].
 * Enabled `random_api_migration` fixer ([#69]), by [@localheinz]
 * Enabled `regular_callable_call` fixer ([#70]), by [@localheinz]
 * Enabled `return_assignment` fixer ([#71]), by [@localheinz]
+* Enabled `self_accessor` fixer ([#73]), by [@localheinz]
 
 ## [`1.2.1`][1.2.1]
 
@@ -149,5 +150,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#69]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/69
 [#70]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/70
 [#71]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/71
+[#73]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/73
 
 [@localheinz]: https://github.com/localheinz
