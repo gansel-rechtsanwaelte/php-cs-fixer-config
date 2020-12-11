@@ -336,7 +336,7 @@ final class Php72Test extends AbstractRuleSetTestCase
             'null_adjustment' => 'always_last',
             'sort_algorithm' => 'none',
         ],
-        'phpdoc_var_annotation_correct_order' => false,
+        'phpdoc_var_annotation_correct_order' => true,
         'phpdoc_var_without_name' => true,
         'pow_to_exponentiation' => false,
         'protected_to_private' => true,
