@@ -97,7 +97,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'echo_tag_syntax' => true,
         'elseif' => true,
         'encoding' => true,
-        'ereg_to_preg' => false,
+        'ereg_to_preg' => true,
         'error_suppression' => false,
         'escape_implicit_backslashes' => false,
         'explicit_indirect_variable' => false,

@@ -91,7 +91,7 @@ final class Php72 extends AbstractRuleSet
         'echo_tag_syntax' => true,
         'elseif' => true,
         'encoding' => true,
-        'ereg_to_preg' => false,
+        'ereg_to_preg' => true,
         'error_suppression' => false,
         'escape_implicit_backslashes' => false,
         'explicit_indirect_variable' => false,
