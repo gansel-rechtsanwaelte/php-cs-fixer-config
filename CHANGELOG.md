@@ -61,6 +61,7 @@ For a full diff see [`1.2.1...main`][1.2.1...main].
 * Enabled `ternary_to_elvis_operator` fixer ([#78]), by [@localheinz]
 * Added rule set for PHP 7.3 ([#80]), by [@localheinz]
 * Configured `no_whitespace_before_comma_in_array` differently for `Php72`, `Php73`, and `Php74` rule sets ([#81]), by [@localheinz]
+* Configured `trailing_comma_in_multiline_array` differently for `Php72`, `Php73`, and `Php74` rule sets ([#81]), by [@localheinz]
 
 ## [`1.2.1`][1.2.1]
 
