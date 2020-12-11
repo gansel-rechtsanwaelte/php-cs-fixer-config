@@ -207,7 +207,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'no_trailing_comma_in_singleline_array' => true,
         'no_trailing_whitespace' => true,
         'no_trailing_whitespace_in_comment' => true,
-        'no_trailing_whitespace_in_string' => false,
+        'no_trailing_whitespace_in_string' => true,
         'no_unneeded_control_parentheses' => [
             'statements' => [
                 'break',
