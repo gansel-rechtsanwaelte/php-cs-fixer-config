@@ -302,7 +302,7 @@ final class Php74 extends AbstractRuleSet
         'phpdoc_separation' => true,
         'phpdoc_single_line_var_spacing' => true,
         'phpdoc_summary' => true,
-        'phpdoc_tag_casing' => false,
+        'phpdoc_tag_casing' => true,
         'phpdoc_tag_type' => [
             'tags' => [
                 'inheritDoc' => 'inline',
