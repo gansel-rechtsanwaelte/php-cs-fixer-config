@@ -27,13 +27,14 @@ final class Php72Test extends AbstractRuleSetTestCase
 
     protected $rules = [
         '@DoctrineAnnotation' => true,
-        '@PSR2' => true,
+        '@PSR1' => true,
         'array_indentation' => true,
         'array_syntax' => [
             'syntax' => 'short',
         ],
         'backtick_to_shell_exec' => true,
         'binary_operator_spaces' => true,
+        'blank_line_after_namespace' => true,
         'blank_line_after_opening_tag' => true,
         'blank_line_before_statement' => [
             'statements' => [
@@ -77,11 +78,14 @@ final class Php72Test extends AbstractRuleSetTestCase
         'combine_consecutive_unsets' => true,
         'compact_nullable_typehint' => true,
         'concat_space' => true,
+        'constant_case' => true,
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'echo_tag_syntax' => true,
+        'elseif' => true,
         'explicit_string_variable' => true,
         'fully_qualified_strict_types' => true,
+        'function_declaration' => true,
         'function_typehint_space' => true,
         'general_phpdoc_tag_rename' => [
             'replacements' => [
@@ -91,13 +95,16 @@ final class Php72Test extends AbstractRuleSetTestCase
         'header_comment' => false,
         'include' => true,
         'increment_style' => true,
+        'indentation_type' => true,
         'lambda_not_used_import' => true,
+        'line_ending' => true,
         'linebreak_after_opening_tag' => true,
         'list_syntax' => [
             'syntax' => 'short',
         ],
         'logical_operators' => true,
         'lowercase_cast' => true,
+        'lowercase_keywords' => true,
         'lowercase_static_reference' => true,
         'magic_constant_casing' => true,
         'magic_method_casing' => true,
@@ -119,6 +126,8 @@ final class Php72Test extends AbstractRuleSetTestCase
         'no_binary_string' => true,
         'no_blank_lines_after_class_opening' => true,
         'no_blank_lines_after_phpdoc' => true,
+        'no_break_comment' => true,
+        'no_closing_tag' => true,
         'no_empty_comment' => true,
         'no_empty_phpdoc' => true,
         'no_empty_statement' => true,
@@ -144,11 +153,15 @@ final class Php72Test extends AbstractRuleSetTestCase
         'no_null_property_initialization' => true,
         'no_short_bool_cast' => true,
         'no_singleline_whitespace_before_semicolons' => true,
+        'no_spaces_after_function_name' => true,
         'no_spaces_around_offset' => true,
+        'no_spaces_inside_parenthesis' => true,
         'no_superfluous_elseif' => true,
         'no_superfluous_phpdoc_tags' => true,
         'no_trailing_comma_in_list_call' => true,
         'no_trailing_comma_in_singleline_array' => true,
+        'no_trailing_whitespace' => true,
+        'no_trailing_whitespace_in_comment' => true,
         'no_unneeded_control_parentheses' => [
             'statements' => [
                 'break',
@@ -239,8 +252,11 @@ final class Php72Test extends AbstractRuleSetTestCase
         'return_type_declaration' => true,
         'semicolon_after_instruction' => true,
         'short_scalar_cast' => true,
+        'single_blank_line_at_eof' => true,
         'single_blank_line_before_namespace' => true,
         'single_class_element_per_statement' => true,
+        'single_import_per_statement' => true,
+        'single_line_after_imports' => true,
         'single_line_comment_style' => [
             'comment_types' => [
                 'hash',
@@ -257,6 +273,8 @@ final class Php72Test extends AbstractRuleSetTestCase
         'standardize_not_equals' => true,
         'strict_comparison' => true,
         'strict_param' => true,
+        'switch_case_semicolon_to_colon' => true,
+        'switch_case_space' => true,
         'switch_continue_to_break' => true,
         'ternary_operator_spaces' => true,
         'ternary_to_null_coalescing' => true,
