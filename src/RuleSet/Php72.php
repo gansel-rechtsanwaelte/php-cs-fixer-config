@@ -22,7 +22,7 @@ final class Php72 extends AbstractRuleSet
     protected $rules = [
         'align_multiline_comment' => true,
         'array_indentation' => true,
-        'array_push' => false,
+        'array_push' => true,
         'array_syntax' => [
             'syntax' => 'short',
         ],
