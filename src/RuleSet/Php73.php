@@ -140,6 +140,7 @@ final class Php73 extends AbstractRuleSet
         'magic_method_casing' => true,
         'mb_str_functions' => false,
         'method_argument_space' => [
+            'after_heredoc' => true,
             'on_multiline' => 'ensure_fully_multiline',
         ],
         'method_chaining_indentation' => true,
