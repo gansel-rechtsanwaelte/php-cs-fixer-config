@@ -42,6 +42,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `php_unit_internal_class` fixer ([#57]), by [@localheinz]
 * Enabled `php_unit_mock` fixer ([#58]), by [@localheinz]
 * Enabled `php_unit_mock_short_will_return` fixer ([#59]), by [@localheinz]
+* Enabled `php_unit_namespaced` fixer ([#60]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -116,5 +117,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#57]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/57
 [#58]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/58
 [#59]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/59
+[#60]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/60
 
 [@localheinz]: https://github.com/localheinz
