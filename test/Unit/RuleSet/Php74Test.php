@@ -345,7 +345,7 @@ final class Php74Test extends AbstractRuleSetTestCase
         'regular_callable_call' => true,
         'return_assignment' => true,
         'return_type_declaration' => true,
-        'self_accessor' => false,
+        'self_accessor' => true,
         'self_static_accessor' => false,
         'semicolon_after_instruction' => true,
         'set_type_to_cast' => false,
