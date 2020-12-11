@@ -112,7 +112,11 @@ final class Php74 extends AbstractRuleSet
                 'inheritDocs' => 'inheritDoc',
             ],
         ],
-        'global_namespace_import' => false,
+        'global_namespace_import' => [
+            'import_classes' => false,
+            'import_constants' => false,
+            'import_functions' => false,
+        ],
         'group_import' => false,
         'header_comment' => false,
         'heredoc_indentation' => false,

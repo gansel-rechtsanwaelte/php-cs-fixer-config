@@ -20,6 +20,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `explicit_indirect_variable` fixer ([#32]), by [@localheinz]
 * Enabled `final_internal_class` fixer ([#34]), by [@localheinz]
 * Enabled `function_to_constant` fixer ([#35]), by [@localheinz]
+* Enabled and configured `global_namespace_import` fixer ([#37]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -72,5 +73,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#32]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/32
 [#34]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/34
 [#35]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/35
+[#37]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/37
 
 [@localheinz]: https://github.com/localheinz
