@@ -131,7 +131,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'include' => true,
         'increment_style' => true,
         'indentation_type' => true,
-        'is_null' => false,
+        'is_null' => true,
         'lambda_not_used_import' => true,
         'line_ending' => true,
         'linebreak_after_opening_tag' => true,
