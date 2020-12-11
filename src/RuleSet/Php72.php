@@ -332,7 +332,7 @@ final class Php72 extends AbstractRuleSet
         ],
         'phpdoc_var_annotation_correct_order' => true,
         'phpdoc_var_without_name' => true,
-        'pow_to_exponentiation' => false,
+        'pow_to_exponentiation' => true,
         'protected_to_private' => true,
         'psr_autoloading' => true,
         'random_api_migration' => false,
