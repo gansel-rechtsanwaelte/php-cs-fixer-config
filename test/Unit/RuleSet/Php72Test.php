@@ -262,7 +262,7 @@ final class Php72Test extends AbstractRuleSetTestCase
         'php_unit_fqcn_annotation' => true,
         'php_unit_internal_class' => true,
         'php_unit_method_casing' => true,
-        'php_unit_mock' => false,
+        'php_unit_mock' => true,
         'php_unit_mock_short_will_return' => false,
         'php_unit_namespaced' => false,
         'php_unit_no_expectation_annotation' => false,
