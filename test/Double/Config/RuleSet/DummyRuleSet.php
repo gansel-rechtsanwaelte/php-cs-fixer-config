@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config
  */
 
-namespace Gansel\PhpCsFixer\Config\Test\Fixture\Config\RuleSet;
+namespace Gansel\PhpCsFixer\Config\Test\Double\Config\RuleSet;
 
 use Gansel\PhpCsFixer\Config;
 
