@@ -25,6 +25,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `implode_call` fixer ([#39]), by [@localheinz]
 * Enabled `is_null` fixer ([#40]), by [@localheinz]
 * Enabled `method_chaining_indentation` fixer ([#41]), by [@localheinz]
+* Enabled `modernize_types_casting` fixer ([#42]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -82,5 +83,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#39]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/39
 [#40]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/40
 [#41]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/41
+[#42]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/42
 
 [@localheinz]: https://github.com/localheinz

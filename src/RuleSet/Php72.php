@@ -143,7 +143,7 @@ final class Php72 extends AbstractRuleSet
             'on_multiline' => 'ensure_fully_multiline',
         ],
         'method_chaining_indentation' => true,
-        'modernize_types_casting' => false,
+        'modernize_types_casting' => true,
         'multiline_comment_opening_closing' => false,
         'multiline_whitespace_before_semicolons' => true,
         'native_constant_invocation' => false,
