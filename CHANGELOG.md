@@ -14,6 +14,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `align_multiline_comment` fixer  ([#26]), by [@localheinz]
 * Enabled `array_push` fixer  ([#27]), by [@localheinz]
 * Enabled `combine_nested_dirname` fixer  ([#28]), by [@localheinz]
+* Enabled `dir_constant` fixer  ([#29]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -60,5 +61,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#26]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/26
 [#27]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/27
 [#28]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/28
+[#29]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/29
 
 [@localheinz]: https://github.com/localheinz
