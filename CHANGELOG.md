@@ -11,12 +11,12 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 ### Changed
 
 * Allowed installation with PHP 8.0 ([#24]), by [@localheinz]
-* Enabled `align_multiline_comment` fixer  ([#26]), by [@localheinz]
-* Enabled `array_push` fixer  ([#27]), by [@localheinz]
-* Enabled `combine_nested_dirname` fixer  ([#28]), by [@localheinz]
-* Enabled `dir_constant` fixer  ([#29]), by [@localheinz]
-* Enabled `ereg_to_preg` fixer  ([#30]), by [@localheinz]
-* Enabled `escape_implicit_backslashes` fixer  ([#31]), by [@localheinz]
+* Enabled `align_multiline_comment` fixer ([#26]), by [@localheinz]
+* Enabled `array_push` fixer ([#27]), by [@localheinz]
+* Enabled `combine_nested_dirname` fixer ([#28]), by [@localheinz]
+* Enabled `dir_constant` fixer ([#29]), by [@localheinz]
+* Enabled `ereg_to_preg` fixer ([#30]), by [@localheinz]
+* Enabled `escape_implicit_backslashes` fixer ([#31]), by [@localheinz]
 * Enabled `explicit_indirect_variable` fixer ([#32]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
