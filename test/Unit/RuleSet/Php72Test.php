@@ -224,7 +224,7 @@ final class Php72Test extends AbstractRuleSetTestCase
             'namespaces' => true,
         ],
         'no_unneeded_final_method' => true,
-        'no_unreachable_default_argument_value' => false,
+        'no_unreachable_default_argument_value' => true,
         'no_unset_cast' => true,
         'no_unset_on_property' => false,
         'no_unused_imports' => true,
