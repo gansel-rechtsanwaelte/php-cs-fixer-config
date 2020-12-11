@@ -6,11 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.2.0...main`][1.2.0...main].
+For a full diff see [`1.2.1...main`][1.2.1...main].
 
 ### Changed
 
-* Allowed installation with PHP 8.0 ([#24]), by [@localheinz]
 * Enabled `align_multiline_comment` fixer ([#26]), by [@localheinz]
 * Enabled `array_push` fixer ([#27]), by [@localheinz]
 * Enabled `combine_nested_dirname` fixer ([#28]), by [@localheinz]
@@ -55,6 +54,14 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `regular_callable_call` fixer ([#70]), by [@localheinz]
 * Enabled `return_assignment` fixer ([#71]), by [@localheinz]
 
+## [`1.2.1`][1.2.1]
+
+For a full diff see [`1.2.0...1.2.1`][1.2.0...1.2.1].
+
+### Changed
+
+* Allowed installation with PHP 8.0 ([#24]), by [@localheinz]
+
 ## [`1.2.0`][1.2.0]
 
 For a full diff see [`1.1.0...1.2.0`][1.1.0...1.2.0].
@@ -86,11 +93,13 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.0.0
 [1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.1.0
 [1.2.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.2.0
+[1.2.1]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/tag/1.2.0
 
 [b9012df...1.0.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/b9012df...1.0.0
 [1.0.0...1.1.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.0.0...1.1.0
 [1.1.0...1.2.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.1.0...1.2.0
-[1.2.0...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.0...main
+[1.2.0...1.2.1]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.0...1.2.1
+[1.2.1...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.1...main
 
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
