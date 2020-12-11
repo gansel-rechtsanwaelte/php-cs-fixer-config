@@ -56,6 +56,7 @@ For a full diff see [`1.2.1...main`][1.2.1...main].
 * Enabled `self_accessor` fixer ([#73]), by [@localheinz]
 * Enabled `self_static_accessor` fixer ([#74]), by [@localheinz]
 * Enabled `set_type_to_cast` fixer ([#75]), by [@localheinz]
+* Enabled `simple_to_complex_string_variable` fixer ([#76]), by [@localheinz]
 
 ## [`1.2.1`][1.2.1]
 
@@ -155,5 +156,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#73]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/73
 [#74]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/74
 [#75]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/75
+[#76]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/76
 
 [@localheinz]: https://github.com/localheinz
