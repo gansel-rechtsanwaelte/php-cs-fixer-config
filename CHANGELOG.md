@@ -37,6 +37,7 @@ For a full diff see [`1.2.0...main`][1.2.0...main].
 * Enabled `no_useless_sprintf` fixer ([#51]), by [@localheinz]
 * Enabled `nullable_type_declaration_for_default_null_value` fixer ([#52]), by [@localheinz]
 * Enabled and configured `operator_linebreak` fixer ([#53]), by [@localheinz]
+* Enabled `ordered_interfaces` fixer ([#54]), by [@localheinz]
 
 ## [`1.2.0`][1.2.0]
 
@@ -106,5 +107,6 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#51]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/51
 [#52]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/52
 [#53]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/53
+[#54]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/54
 
 [@localheinz]: https://github.com/localheinz
