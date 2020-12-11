@@ -189,7 +189,7 @@ final class Php72Test extends AbstractRuleSetTestCase
                 'use_trait',
             ],
         ],
-        'no_homoglyph_names' => false,
+        'no_homoglyph_names' => true,
         'no_leading_import_slash' => true,
         'no_leading_namespace_whitespace' => true,
         'no_mixed_echo_print' => true,
