@@ -254,7 +254,7 @@ final class Php72 extends AbstractRuleSet
         'php_unit_dedicate_assert_internal_type' => true,
         'php_unit_expectation' => true,
         'php_unit_fqcn_annotation' => true,
-        'php_unit_internal_class' => false,
+        'php_unit_internal_class' => true,
         'php_unit_method_casing' => true,
         'php_unit_mock' => false,
         'php_unit_mock_short_will_return' => false,
