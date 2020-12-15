@@ -153,7 +153,9 @@ final class Php72Test extends AbstractRuleSetTestCase
         'modernize_types_casting' => true,
         'multiline_comment_opening_closing' => true,
         'multiline_whitespace_before_semicolons' => true,
-        'native_constant_invocation' => true,
+        'native_constant_invocation' => [
+            'fix_built_in' => false,
+        ],
         'native_function_casing' => true,
         'native_function_invocation' => [
             'include' => [
