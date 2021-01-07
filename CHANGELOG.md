@@ -14,7 +14,7 @@ For a full diff see [`1.4.0...1.4.1`][1.4.0...1.4.1].
 
 ### Changed
 
-* Configured `native_constant_invocation` fixer to ignore built-in constants ([#85]), by [@localheinz]
+* Fix license year ([#100]), by [@OskarStark]
 
 ## [`1.4.0`][1.4.0]
 
