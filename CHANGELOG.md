@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.3.0...main`][1.4.0...main].
+For a full diff see [`1.4.1...main`][1.4.1...main].
+
+## [`1.4.1`][1.4.1]
+
+For a full diff see [`1.4.0...1.4.1`][1.4.0...1.4.1].
+
+### Changed
+
+* Configured `native_constant_invocation` fixer to ignore built-in constants ([#85]), by [@localheinz]
 
 ## [`1.4.0`][1.4.0]
 
