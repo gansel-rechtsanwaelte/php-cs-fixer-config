@@ -17,7 +17,7 @@ Provides a configuration factory and multiple rule sets for [`friendsofphp/php-c
 Run
 
 ```sh
-$ composer require --dev gansel/php-cs-fixer-config
+$ composer require --dev gansel-rechtsanwaelte/php-cs-fixer-config
 ```
 
 ## Usage
@@ -66,7 +66,7 @@ All configuration examples use the caching feature, and if you want to use it as
  use Gansel\PhpCsFixer\Config;
 
 +$header = <<<EOF
-+Copyright (c) 2020 Gansel Rechtsanwälte
++Copyright (c) 2021 Gansel Rechtsanwälte
 +
 +For the full copyright and license information, please view
 +the LICENSE file that was distributed with this source code.
@@ -90,7 +90,7 @@ file headers will be added to PHP files, for example:
 <?php
 
 /**
- * Copyright (c) 2020 Gansel Rechtsanwälte
+ * Copyright (c) 2021 Gansel Rechtsanwälte
  *
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
@@ -154,7 +154,7 @@ If you like [`composer` scripts](https://getcomposer.org/doc/articles/scripts.md
      "php": "^7.4",
    },
    "require-dev": {
-     "gansel/php-cs-fixer-config": "~1.0.0"
+     "gansel-rechtsanwaelte/php-cs-fixer-config": "~1.0.0"
 +  },
 +  "scripts": {
 +    "coding-standards": [
