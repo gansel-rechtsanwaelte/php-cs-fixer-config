@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.4.1...main`][1.4.1...main].
+For a full diff see [`1.4.2...main`][1.4.2...main].
+
+## [`1.4.2`][1.4.2]
+
+For a full diff see [`1.4.1...1.4.2`][1.4.1...1.4.2].
+
+### Changed
+
+* Use PHP-CS-Fixer 2.17.4 ([#107]), by [@OskarStark]
 
 ## [`1.4.1`][1.4.1]
 
@@ -137,7 +145,8 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [1.2.1...1.3.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.2.1...1.3.0
 [1.3.0...1.4.0]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.3.0...1.4.0
 [1.4.0...1.4.1]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.4.0...1.4.0
-[1.4.1...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.4.1...main
+[1.4.1...1.4.2]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.4.1...1.4.2
+[1.4.2...main]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/compare/1.4.2...main
 
 [#9]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/9
 [#11]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/11
@@ -197,6 +206,7 @@ For a full diff see [`b9012df...1.0.0`][b9012df...1.0.0].
 [#81]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/81
 [#85]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/85
 [#100]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/100
+[#107]: https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/pull/107
 
 [@localheinz]: https://github.com/localheinz
 [@OskarStark]: https://github.com/OskarStark
