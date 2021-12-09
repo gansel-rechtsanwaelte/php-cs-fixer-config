@@ -1,15 +1,19 @@
 {
   "name": "gansel-rechtsanwaelte/php-cs-fixer-config",
-  "type": "library",
   "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
-  "homepage": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config",
   "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "Andreas Möller",
       "email": "am@localheinz.com"
     }
   ],
+  "homepage": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config",
+  "support": {
+    "issues": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/issues",
+    "source": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config"
+  },
   "require": {
     "php": "^7.2 || ^8.0",
     "friendsofphp/php-cs-fixer": "~2.19.3"
@@ -28,6 +32,16 @@
     "phpstan/phpstan-strict-rules": "~0.12.11",
     "phpunit/phpunit": "^8.5.21"
   },
+  "autoload": {
+    "psr-4": {
+      "Gansel\\PhpCsFixer\\Config\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gansel\\PhpCsFixer\\Config\\Test\\": "test"
+    }
+  },
   "config": {
     "platform": {
       "php": "7.2.33"
@@ -40,19 +54,5 @@
       "indent-size": 2,
       "indent-style": "space"
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "Gansel\\PhpCsFixer\\Config\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Gansel\\PhpCsFixer\\Config\\Test\\": "test"
-    }
-  },
-  "support": {
-    "issues": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config/issues",
-    "source": "https://github.com/gansel-rechtsanwaelte/php-cs-fixer-config"
   }
 }
